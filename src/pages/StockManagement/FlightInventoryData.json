@@ -1,0 +1,1002 @@
+[
+    {
+        "plane_id": "A100",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-15",
+        "next_maintenance": "2024-12-15",
+        "home_base": "IST",
+        "current_flight": "TK2024",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A101",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-16",
+        "next_maintenance": "2024-12-16",
+        "home_base": "SAW",
+        "current_flight": "TK2025",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A102",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-17",
+        "next_maintenance": "2024-12-17",
+        "home_base": "IST",
+        "current_flight": "TK2026",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A103",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-18",
+        "next_maintenance": "2024-12-18",
+        "home_base": "SAW",
+        "current_flight": "TK2027",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A104",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-19",
+        "next_maintenance": "2024-12-19",
+        "home_base": "IST",
+        "current_flight": "TK2028",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A105",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-20",
+        "next_maintenance": "2024-12-20",
+        "home_base": "SAW",
+        "current_flight": "TK2029",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A106",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-21",
+        "next_maintenance": "2024-12-21",
+        "home_base": "IST",
+        "current_flight": "TK2030",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A107",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-22",
+        "next_maintenance": "2024-12-22",
+        "home_base": "SAW",
+        "current_flight": "TK2031",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A108",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-23",
+        "next_maintenance": "2024-12-23",
+        "home_base": "IST",
+        "current_flight": "TK2032",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A109",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-24",
+        "next_maintenance": "2024-12-24",
+        "home_base": "SAW",
+        "current_flight": "TK2033",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A110",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-25",
+        "next_maintenance": "2024-12-25",
+        "home_base": "IST",
+        "current_flight": "TK2034",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A111",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-26",
+        "next_maintenance": "2024-12-26",
+        "home_base": "SAW",
+        "current_flight": "TK2035",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A112",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-27",
+        "next_maintenance": "2024-12-27",
+        "home_base": "IST",
+        "current_flight": "TK2036",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A113",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-28",
+        "next_maintenance": "2024-12-28",
+        "home_base": "SAW",
+        "current_flight": "TK2037",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A114",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-29",
+        "next_maintenance": "2024-12-29",
+        "home_base": "IST",
+        "current_flight": "TK2038",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A115",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-15",
+        "next_maintenance": "2024-12-15",
+        "home_base": "SAW",
+        "current_flight": "TK2039",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A116",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-16",
+        "next_maintenance": "2024-12-16",
+        "home_base": "IST",
+        "current_flight": "TK2040",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A117",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-17",
+        "next_maintenance": "2024-12-17",
+        "home_base": "SAW",
+        "current_flight": "TK2041",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A118",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-18",
+        "next_maintenance": "2024-12-18",
+        "home_base": "IST",
+        "current_flight": "TK2042",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A119",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-19",
+        "next_maintenance": "2024-12-19",
+        "home_base": "SAW",
+        "current_flight": "TK2043",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A120",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-20",
+        "next_maintenance": "2024-12-20",
+        "home_base": "IST",
+        "current_flight": "TK2044",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A121",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-21",
+        "next_maintenance": "2024-12-21",
+        "home_base": "SAW",
+        "current_flight": "TK2045",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A122",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-22",
+        "next_maintenance": "2024-12-22",
+        "home_base": "IST",
+        "current_flight": "TK2046",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A123",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-23",
+        "next_maintenance": "2024-12-23",
+        "home_base": "SAW",
+        "current_flight": "TK2047",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A124",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-24",
+        "next_maintenance": "2024-12-24",
+        "home_base": "IST",
+        "current_flight": "TK2048",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A125",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-25",
+        "next_maintenance": "2024-12-25",
+        "home_base": "SAW",
+        "current_flight": "TK2049",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A126",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-26",
+        "next_maintenance": "2024-12-26",
+        "home_base": "IST",
+        "current_flight": "TK2050",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A127",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-27",
+        "next_maintenance": "2024-12-27",
+        "home_base": "SAW",
+        "current_flight": "TK2051",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A128",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-28",
+        "next_maintenance": "2024-12-28",
+        "home_base": "IST",
+        "current_flight": "TK2052",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A129",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-29",
+        "next_maintenance": "2024-12-29",
+        "home_base": "SAW",
+        "current_flight": "TK2053",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A130",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-15",
+        "next_maintenance": "2024-12-15",
+        "home_base": "IST",
+        "current_flight": "TK2054",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A131",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-16",
+        "next_maintenance": "2024-12-16",
+        "home_base": "SAW",
+        "current_flight": "TK2055",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A132",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-17",
+        "next_maintenance": "2024-12-17",
+        "home_base": "IST",
+        "current_flight": "TK2056",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A133",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-18",
+        "next_maintenance": "2024-12-18",
+        "home_base": "SAW",
+        "current_flight": "TK2057",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A134",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-19",
+        "next_maintenance": "2024-12-19",
+        "home_base": "IST",
+        "current_flight": "TK2058",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A135",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-20",
+        "next_maintenance": "2024-12-20",
+        "home_base": "SAW",
+        "current_flight": "TK2059",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A136",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-21",
+        "next_maintenance": "2024-12-21",
+        "home_base": "IST",
+        "current_flight": "TK2060",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A137",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-22",
+        "next_maintenance": "2024-12-22",
+        "home_base": "SAW",
+        "current_flight": "TK2061",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A138",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-23",
+        "next_maintenance": "2024-12-23",
+        "home_base": "IST",
+        "current_flight": "TK2062",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A139",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-24",
+        "next_maintenance": "2024-12-24",
+        "home_base": "SAW",
+        "current_flight": "TK2063",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A140",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-25",
+        "next_maintenance": "2024-12-25",
+        "home_base": "IST",
+        "current_flight": "TK2064",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A141",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-26",
+        "next_maintenance": "2024-12-26",
+        "home_base": "SAW",
+        "current_flight": "TK2065",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A142",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-27",
+        "next_maintenance": "2024-12-27",
+        "home_base": "IST",
+        "current_flight": "TK2066",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A143",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-28",
+        "next_maintenance": "2024-12-28",
+        "home_base": "SAW",
+        "current_flight": "TK2067",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A144",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-29",
+        "next_maintenance": "2024-12-29",
+        "home_base": "IST",
+        "current_flight": "TK2068",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A145",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-15",
+        "next_maintenance": "2024-12-15",
+        "home_base": "SAW",
+        "current_flight": "TK2069",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A146",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-16",
+        "next_maintenance": "2024-12-16",
+        "home_base": "IST",
+        "current_flight": "TK2070",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A147",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-17",
+        "next_maintenance": "2024-12-17",
+        "home_base": "SAW",
+        "current_flight": "TK2071",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A148",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-18",
+        "next_maintenance": "2024-12-18",
+        "home_base": "IST",
+        "current_flight": "TK2072",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A149",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-19",
+        "next_maintenance": "2024-12-19",
+        "home_base": "SAW",
+        "current_flight": "TK2073",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A150",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-20",
+        "next_maintenance": "2024-12-20",
+        "home_base": "IST",
+        "current_flight": "TK2074",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A151",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-21",
+        "next_maintenance": "2024-12-21",
+        "home_base": "SAW",
+        "current_flight": "TK2075",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A152",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-22",
+        "next_maintenance": "2024-12-22",
+        "home_base": "IST",
+        "current_flight": "TK2076",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A153",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-23",
+        "next_maintenance": "2024-12-23",
+        "home_base": "SAW",
+        "current_flight": "TK2077",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A154",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-24",
+        "next_maintenance": "2024-12-24",
+        "home_base": "IST",
+        "current_flight": "TK2078",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A155",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-25",
+        "next_maintenance": "2024-12-25",
+        "home_base": "SAW",
+        "current_flight": "TK2079",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A156",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-26",
+        "next_maintenance": "2024-12-26",
+        "home_base": "IST",
+        "current_flight": "TK2080",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A157",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-27",
+        "next_maintenance": "2024-12-27",
+        "home_base": "SAW",
+        "current_flight": "TK2081",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A158",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-28",
+        "next_maintenance": "2024-12-28",
+        "home_base": "IST",
+        "current_flight": "TK2082",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A159",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-29",
+        "next_maintenance": "2024-12-29",
+        "home_base": "SAW",
+        "current_flight": "TK2083",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A160",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-15",
+        "next_maintenance": "2024-12-15",
+        "home_base": "IST",
+        "current_flight": "TK2084",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A161",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-16",
+        "next_maintenance": "2024-12-16",
+        "home_base": "SAW",
+        "current_flight": "TK2085",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A162",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-17",
+        "next_maintenance": "2024-12-17",
+        "home_base": "IST",
+        "current_flight": "TK2086",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A163",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-18",
+        "next_maintenance": "2024-12-18",
+        "home_base": "SAW",
+        "current_flight": "TK2087",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A164",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-19",
+        "next_maintenance": "2024-12-19",
+        "home_base": "IST",
+        "current_flight": "TK2088",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A165",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-20",
+        "next_maintenance": "2024-12-20",
+        "home_base": "SAW",
+        "current_flight": "TK2089",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A166",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-21",
+        "next_maintenance": "2024-12-21",
+        "home_base": "IST",
+        "current_flight": "TK2090",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A167",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-22",
+        "next_maintenance": "2024-12-22",
+        "home_base": "SAW",
+        "current_flight": "TK2091",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A168",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-23",
+        "next_maintenance": "2024-12-23",
+        "home_base": "IST",
+        "current_flight": "TK2092",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A169",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-24",
+        "next_maintenance": "2024-12-24",
+        "home_base": "SAW",
+        "current_flight": "TK2093",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A170",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-25",
+        "next_maintenance": "2024-12-25",
+        "home_base": "IST",
+        "current_flight": "TK2094",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A171",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-26",
+        "next_maintenance": "2024-12-26",
+        "home_base": "SAW",
+        "current_flight": "TK2095",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A172",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-27",
+        "next_maintenance": "2024-12-27",
+        "home_base": "IST",
+        "current_flight": "TK2096",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A173",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-28",
+        "next_maintenance": "2024-12-28",
+        "home_base": "SAW",
+        "current_flight": "TK2097",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A174",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-29",
+        "next_maintenance": "2024-12-29",
+        "home_base": "IST",
+        "current_flight": "TK2098",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A175",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-15",
+        "next_maintenance": "2024-12-15",
+        "home_base": "SAW",
+        "current_flight": "TK2099",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A176",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-16",
+        "next_maintenance": "2024-12-16",
+        "home_base": "IST",
+        "current_flight": "TK2100",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A177",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-17",
+        "next_maintenance": "2024-12-17",
+        "home_base": "SAW",
+        "current_flight": "TK2101",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A178",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-18",
+        "next_maintenance": "2024-12-18",
+        "home_base": "IST",
+        "current_flight": "TK2102",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A179",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-19",
+        "next_maintenance": "2024-12-19",
+        "home_base": "SAW",
+        "current_flight": "TK2103",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A180",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-20",
+        "next_maintenance": "2024-12-20",
+        "home_base": "IST",
+        "current_flight": "TK2104",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A181",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-21",
+        "next_maintenance": "2024-12-21",
+        "home_base": "SAW",
+        "current_flight": "TK2105",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A182",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-22",
+        "next_maintenance": "2024-12-22",
+        "home_base": "IST",
+        "current_flight": "TK2106",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A183",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-23",
+        "next_maintenance": "2024-12-23",
+        "home_base": "SAW",
+        "current_flight": "TK2107",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A184",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-24",
+        "next_maintenance": "2024-12-24",
+        "home_base": "IST",
+        "current_flight": "TK2108",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A185",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-25",
+        "next_maintenance": "2024-12-25",
+        "home_base": "SAW",
+        "current_flight": "TK2109",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A186",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-26",
+        "next_maintenance": "2024-12-26",
+        "home_base": "IST",
+        "current_flight": "TK2110",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A187",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-27",
+        "next_maintenance": "2024-12-27",
+        "home_base": "SAW",
+        "current_flight": "TK2111",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A188",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-28",
+        "next_maintenance": "2024-12-28",
+        "home_base": "IST",
+        "current_flight": "TK2112",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A189",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-29",
+        "next_maintenance": "2024-12-29",
+        "home_base": "SAW",
+        "current_flight": "TK2113",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A190",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-15",
+        "next_maintenance": "2024-12-15",
+        "home_base": "IST",
+        "current_flight": "TK2114",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A191",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-16",
+        "next_maintenance": "2024-12-16",
+        "home_base": "SAW",
+        "current_flight": "TK2115",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A192",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-17",
+        "next_maintenance": "2024-12-17",
+        "home_base": "IST",
+        "current_flight": "TK2116",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A193",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-18",
+        "next_maintenance": "2024-12-18",
+        "home_base": "SAW",
+        "current_flight": "TK2117",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A194",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-19",
+        "next_maintenance": "2024-12-19",
+        "home_base": "IST",
+        "current_flight": "TK2118",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A195",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-20",
+        "next_maintenance": "2024-12-20",
+        "home_base": "SAW",
+        "current_flight": "TK2119",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A196",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-21",
+        "next_maintenance": "2024-12-21",
+        "home_base": "IST",
+        "current_flight": "TK2120",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A197",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-22",
+        "next_maintenance": "2024-12-22",
+        "home_base": "SAW",
+        "current_flight": "TK2121",
+        "destination": "LHR"
+    },
+    {
+        "plane_id": "A198",
+        "model": "Boeing 737",
+        "capacity": 180,
+        "last_maintenance": "2024-06-23",
+        "next_maintenance": "2024-12-23",
+        "home_base": "IST",
+        "current_flight": "TK2122",
+        "destination": "JFK"
+    },
+    {
+        "plane_id": "A199",
+        "model": "Airbus A320",
+        "capacity": 150,
+        "last_maintenance": "2024-06-24",
+        "next_maintenance": "2024-12-24",
+        "home_base": "SAW",
+        "current_flight": "TK2123",
+        "destination": "LHR"
+    }
+]

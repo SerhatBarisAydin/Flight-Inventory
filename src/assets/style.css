@@ -1,0 +1,142 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+
+}
+body {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  background: #0ACEDD;
+  background: linear-gradient(120deg, #0ACEDD, #D43C45);
+  height: 100%;
+
+
+}
+
+#app{
+
+    padding: 0px;
+    min-width: 100vw;
+    min-height: 100vh;
+    margin: auto;
+  }
+
+h2 {
+  font-family: Oswald;
+}
+
+/* login page style */
+.LoginContainer {
+
+margin: auto;
+  border: 0px solid;
+  border-radius: 8px;
+  background: transparent;
+  height: 500px;
+  width: 700px;
+  /* box-shadow: 0px 0px 20px -10px black; */
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.LoginForm {
+  display: inline-flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  margin-top: 150px;
+  height: 200px;
+  width: 400px;
+}
+
+.buttonComponent {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.LoginButton{
+
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* register page style */
+.RegisterContainer {
+  padding: 0px;
+  border: 0px solid;
+  border-radius: 20px;
+  background: transparent;
+  height: 500px;
+  width: 700px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+}
+p {
+  width: max-content;
+}
+.registerPageInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  height: 50%;
+  margin-top: 30;
+  padding: 10px;
+}
+
+/* HOMEPAGE STYLES */
+
+.homeContainer {
+  align-items: center;
+  width: 100vw; /* Viewport genişliği */
+  height: 100vh; /* Viewport yüksekliği */
+  margin: 0;
+  padding: 0;
+  background: rgb(226, 226, 226);
+  border: 1px solid white;
+}
+
+.homeContainer h1{
+  margin-bottom: 60px;
+  margin-top: 100px;
+  font-family: Oswald;
+  font-weight: bolder;
+  align-items: center;
+  
+}
+
+.cardComponent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.stock-management-container{
+  background: white;
+  width: 100vw; /* Viewport genişliği */
+  height: 100vh;
+  border: 1px solid transparent;
+}
+
+.SettingHeader{
+  padding: 20px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: space-between; 
+  flex-direction: row;
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=f179a7&c2=442ded&gt=l&gd=dtr
+*/
+background: #F179A7;
+background: linear-gradient(225deg, #F179A7, #442DED);
+
+}
