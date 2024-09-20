@@ -1,3 +1,4 @@
+
 <template>
   <div class="homeContainer">
     <div>
@@ -40,12 +41,12 @@ export default {
 
     /* for ile veri içerisinde dolaşıp kullanıcı adı ile uyusan değeri eşleyebilir.*/
 
-    /* USERNAME HOME PAGE INDE GÖZĞKMESİ İÇİN  */
+    /* USERNAME HOME PAGE'de GÖZÜKMESİ İÇİN  */
     methods: {
       loadUserName() {
         const getUsers = loadUser();
         this.HelloUser = getUsers.map((users) => users.name);
-        console.log(this.HelloUser)
+        console.log(this.HelloUser);
       },
     },
 

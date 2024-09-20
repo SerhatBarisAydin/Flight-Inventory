@@ -9,7 +9,8 @@ body {
   margin: 0px;
   padding: 0px;
   background: #0ACEDD;
-  background: linear-gradient(120deg, #0ACEDD, #D43C45);
+  background: linear-gradient(120deg, #0ACEDD, #D43C45, rgb(316 182 112));
+
   height: 100%;
 
 

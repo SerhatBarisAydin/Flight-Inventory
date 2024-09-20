@@ -1,32 +1,35 @@
+<!-- LoginPage.vue -->
 <template>
   <div class="LoginContainer">
     <div class="LoginForm">
       <div>
-
-        <LogoComponent style="padding-bottom: 20px;"/>
-
-
+        <LogoComponent style="padding-bottom: 20px" />
       </div>
 
-      <IdInputComponent v-model="loginId" @loginIdChange="loginIdControl" style="margin-bottom: 20px; width: 100%;" />
+      <IdInputComponent
+        v-model="loginId"
+        @loginIdChange="loginIdControl"
+        style="margin-bottom: 20px; width: 100%"
+      />
       <PasswordInputComponent
         v-model="loginPassword"
         @loginPasswordChange="loginPasswordControl"
-        style="width: 100%;"
-        
+        style="width: 100%"
       />
-    
 
-    <div class="LoginButton">
-      <ButtonComponent @loginClickHandler="loginUser" buttonName="Giriş" style="width: 50%;"/>
-      <ButtonComponent
-        @loginClickHandler="goToRegister"
-        buttonName="Kayıt Ol"
-        style="width: 50%;"
-      />
+      <div class="LoginButton">
+        <ButtonComponent
+          @loginClickHandler="loginUser"
+          buttonName="Giriş"
+          style="width: 50%"
+        />
+        <ButtonComponent
+          @loginClickHandler="goToRegister"
+          buttonName="Kayıt Ol"
+          style="width: 50%"
+        />
+      </div>
     </div>
-
-  </div>
   </div>
 </template>
 
@@ -49,8 +52,7 @@ export default {
     PasswordInputComponent,
     IdInputComponent,
     ButtonComponent,
-    LogoComponent
-    
+    LogoComponent,
   },
   methods: {
     loginUser() {
