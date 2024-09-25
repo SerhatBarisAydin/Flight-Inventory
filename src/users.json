@@ -1,0 +1,10 @@
+[
+    {
+    "name" : "baris",
+    "id": 2,
+    "password": 123123123,
+    "phone-number": 111111111,
+    "region": "USA"       
+    }
+    
+]
