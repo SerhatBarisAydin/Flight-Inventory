@@ -5,7 +5,7 @@
     </div>
     <div class="registerPageInputs">
       <TextInputComponent
-        v-model="newName"
+        v-model="userData.name"
         placeholder="Name"
         style="
           height: 30px;
@@ -17,58 +17,57 @@
       />
 
       <TextInputComponent
-        v-model="newId"
+        v-model="userData.id"
         type="text"
         placeholder="Username"
-        style="height: 30px; width: 100%;"
+        style="height: 30px; width: 100%"
       />
 
       <TextInputComponent
-        v-model="newPassword"
+        v-model="userData.password"
         type="password"
         placeholder="Password"
-        style="height: 30px; width: 100%;"
+        style="height: 30px; width: 100%"
       />
 
       <TextInputComponent
-        v-model="newPhone"
+        v-model="userData.phone"
         type="number"
         placeholder="Enter your phone number"
-        style="height: 30px; width: 100%;"
+        style="height: 30px; width: 100%"
       />
 
       <RegionSelector
-        v-model="newRegion"
+        v-model="userData.region"
         placeholder="Choose your region"
-        @DateTime="DateTimeHandler"
-        style="height: 30px; width: 100%;"
-        
+        style="height: 30px; width: 100%"
       />
     </div>
     <div class="LoginButton">
       <ButtonComponent buttonName="Kaydet" @loginClickHandler="registerUser" />
-     <ButtonComponent buttonName="Geri Dön" @loginClickHandler="goBack" />
+      <ButtonComponent buttonName="Geri Dön" @loginClickHandler="goBack" />
     </div>
   </div>
 </template>
 
 <script>
-import { saveUser } from "../../storage";
 import ButtonComponent from "../../components/ButtonComponent.vue";
 import TextInputComponent from "../../components/TextInputComponent.vue";
-import { ElLoading, ElMessage } from "element-plus";
-import { loadingPage } from "../../functions";
 import RegionSelector from "../../components/RegionSelector.vue";
 import LogoComponent from "../../components/LogoComponent.vue";
+import CryptoJS from "crypto-js";
+import { loadingPage } from "../../functions";
 
 export default {
   data() {
     return {
-      newId: "",
-      newName: "",
-      newPassword: "",
-      newPhone: "",
-      newRegion: "",
+      userData: {
+        id: null,
+        name: null,
+        password: null,
+        phone: null,
+        region: null,
+      },
     };
   },
   components: {
@@ -78,55 +77,37 @@ export default {
     LogoComponent,
   },
   methods: {
-    goBack() {
-      const loading = ElLoading.service({
-        lock: true,
-        text: "",
-        background: "rgba(0,0,0,0.7)",
-      });
-      setTimeout(() => {
-        loading.close(), this.$router.push({ name: "LoginPage" });
-      }, 1500);
-    },
-
-    DateTimeHandler(value) {
-      value = this.newBirthdate;
-    },
-
-    //newUserData içerisinde
     registerUser() {
-      const controlBlankSpaces =
-        this.newId != "" &&
-        this.newName != "" &&
-        this.newPassword != "" &&
-        this.newPhone != "" &&
-        this.newRegion != "";
-      //Buradaki if bloğu register edilirken boş veri kaydedilmemesi adına girilmesi gereken bilgilerin eksiksiz girilmesini sağlar
-      if (controlBlankSpaces) {
-        const newUserData = {
-          id: this.newId,
-          name: this.newName,
-          password: this.newPassword,
-          phone: this.newPhone,
-          region: this.newRegion,
-        };
+      //AES Şifreleme yönteminde her defasında farklı şifre ürettipi için SHA256 kullanımı tercih edildi.
+      const password = CryptoJS.SHA256(this.userData.password).toString();
+      console.log(password);
 
-        saveUser(newUserData);
-        console.log("user Registered: ", newUserData);
+      this.$appAxios
+        .post("/users", { ...this.userData, password })
+        .then(this.goBack());
 
-        loadingPage(() => {
-          ElMessage({
-            message: "Kayıt başarıyla oluşturuldu",
-            type: "success",
-          });
-          this.$router.push({ name: "LoginPage" });
-        }, 1500);
-      } else {
-        ElMessage({
-          message: "Boş alan bırakılamaz",
-          type: "error",
+      /* Kullanıcıya ait verileri users.json dosyasından çekmeye yarar */
+      /*  this.$appAxios.get(`/users?id=${idNumber}`).then(getUserById =>{
+        console.log("user by id :> " , getUserById);
+      }) */
+      /* 
+      this.$appAxios
+        .get("/users", {
+          params: {
+            id: idNumber,
+            name: username,
+          },
+        })
+        .then((getUserData) => {
+          console.log("userdata => ", getUserData);
         });
-      }
+ */
+    },
+
+    goBack() {
+      loadingPage(() => {
+        this.$router.push({ name: "LoginPage" });
+      }, 1000);
     },
   },
 };

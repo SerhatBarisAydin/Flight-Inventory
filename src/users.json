@@ -1,10 +1,39 @@
-[
+{
+  "users": [
     {
-    "name" : "baris",
-    "id": 2,
-    "password": 123123123,
-    "phone-number": 111111111,
-    "region": "USA"       
+      "id": "asfad",
+      "name": "afad",
+      "password": "U2FsdGVkX190xxkNE7Wb+sZTyhH6Uh37CgLRyOYvXQo=",
+      "phone": "21546465",
+      "region": "Australia"
+    },
+    {
+      "id": "sbarisaydin",
+      "name": "Baris",
+      "password": "U2FsdGVkX18k6k3OCkZbHdPyq5XeTvlYC9EQ+NBInvw=",
+      "phone": "0213452564",
+      "region": "France"
+    },
+    {
+      "id": null,
+      "name": null,
+      "password": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "phone": null,
+      "region": null
+    },
+    {
+      "id": "sbarisaydin",
+      "name": "Barış AYDİN",
+      "password": "96cae35ce8a9b0244178bf28e4966c2ce1b8385723a96a6b838858cdd6ca0a1e",
+      "phone": "05424738847",
+      "region": "Italy"
+    },
+    {
+      "id": "aydin",
+      "name": "baris",
+      "password": "d22c415619d9b4e5afd20cd913e4cde9d9809c7789a78a10902305ee23fb1a69",
+      "phone": "05424738847",
+      "region": "Italy"
     }
-    
-]
+  ]
+}

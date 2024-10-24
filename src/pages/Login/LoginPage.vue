@@ -1,4 +1,5 @@
 <!-- LoginPage.vue -->
+<!-- json-server --watch users.json -->
 <template>
   <div class="LoginContainer">
     <div class="LoginForm">
@@ -7,13 +8,11 @@
       </div>
 
       <IdInputComponent
-        v-model="loginId"
-        @loginIdChange="loginIdControl"
+        v-model="loginData.username"
         style="margin-bottom: 20px; width: 100%"
       />
       <PasswordInputComponent
-        v-model="loginPassword"
-        @loginPasswordChange="loginPasswordControl"
+        v-model="loginData.password"
         style="width: 100%"
       />
 
@@ -38,14 +37,14 @@ import ButtonComponent from "../../components/ButtonComponent.vue";
 import IdInputComponent from "../../components/IdInputComponent.vue";
 import PasswordInputComponent from "../../components/PasswordInputComponent.vue";
 import LogoComponent from "../../components/LogoComponent.vue";
-import { loadUser } from "../../storage";
-import { ElMessage } from "element-plus";
 import { loadingPage } from "../../functions";
 export default {
   data() {
     return {
-      loginId: "",
-      loginPassword: "",
+      loginData: {
+        username: null,
+        password: null,
+      },
     };
   },
   components: {
@@ -56,28 +55,25 @@ export default {
   },
   methods: {
     loginUser() {
-      //storage.js içerisinde yazmış olduğumuz loadUser ile kişi bilgilerini çekebiliyor hale geliyoruz
-      const users = loadUser();
-      const user = users.find(
-        (user) =>
-          user.id === this.loginId && user.password === this.loginPassword
-      );
+      /* this.$appAxios.get(`/users?id=${this.loginData.username}`).then((goHomePage) => {
+        console.log(this.loginData.username);
+      }); */
 
-      if (user) {
-        loadingPage(() => {
-          ElMessage({
-            message: "Giriş Başarılı",
-            type: "success",
-          });
-          this.$router.push({ name: "HomePage" });
-        }, 1000);
-      } else {
-        ElMessage({
-          message: "Giriş başarısız oldu. Bilgilerin doğruluğunu kontrol edin",
-          type: "warning",
-        });
-      }
+
+      this.$appAxios.get("/users", {
+        params:{
+          id: this.loginData.username,
+          password: this.loginData.password
+        },
+      }).then(goHomePage => {console.log("welcome: ", this.loginData.username)})
+      .catch(function (error) {
+    console.log(error);
+  })
+
+
+      console.log(this.loginData.username);
     },
+
 
     goToRegister() {
       loadingPage(() => {
